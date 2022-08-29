@@ -20,14 +20,29 @@ body {
   grid-template-columns: 100px 100px 100px;
 }
 
-#cell {
-  border: 2px solid #c6bfccf5;
+.cell {
+  border: 2px solid #c6bfcc;
   display: flex;
   justify-content: center;
   align-items: center;
   margin: 3px;
   border-radius: 8px;
   cursor: pointer;
+  font-size: 3rem;
+  color: rgb(27, 0, 0);
+  font-family: "Pacifico", cursive;
+}
+
+.cell p {
+  position: absolute;
+}
+
+.playerX {
+  color: rgb(0, 0, 175);
+}
+
+.playerO {
+  color: rgb(27, 0, 0);
 }
 
 /* winner  */
@@ -39,7 +54,6 @@ body {
   position: absolute;
   top: 0;
   right: 0;
-  display: flex;
   justify-content: center;
   align-items: center;
   display: none;
