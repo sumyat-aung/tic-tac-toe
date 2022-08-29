@@ -4,7 +4,7 @@
 
   <h3>   Demo - URL link -
     <a href="https://tictactoe-by-sumyat.netlify.app/">
-     https://tictactoe-by-sumyat.netlify.app/
+    https://tictactoe-by-sumyat.netlify.app/
     </a>
   </h3>
 
@@ -12,6 +12,9 @@
 <br/>
 
 ![](Demo/large-screen.png)
+<br/>
+<br/>
+![](Demo/large-screen-active.png)
 <br/>
 <br/>
 
